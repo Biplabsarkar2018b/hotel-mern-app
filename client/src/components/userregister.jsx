@@ -12,7 +12,7 @@ const UserRegUI = () => {
   const [pincode, setpincode] = useState("");
   const handleOnClick = async (ev) => {
     const data = { name, email, phone, password, city, state, pincode };
-    const url = "http://localhost:3300/register/user";
+    const url = "https://hotel-mern-app.vercel.app/register/user";
 
     axios
       .post(url, data)

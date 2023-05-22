@@ -12,7 +12,7 @@ const UserLoginUI = () => {
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
   const handleOnclick = async (ev) => {
-    const url = "http://localhost:3300/login/user";
+    const url = "https://hotel-mern-app.vercel.app/login/user";
     const data = { email, password };
     axios
       .post(url, data)

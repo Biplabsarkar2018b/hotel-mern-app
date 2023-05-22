@@ -34,7 +34,7 @@ const HotelRegUI = () => {
       hotelEmailAddr,
       roomTypes,
     };
-    const url = "http://localhost:3300/register/hotel";
+    const url = "https://hotel-mern-app.vercel.app/register/hotel";
 
 
     axios

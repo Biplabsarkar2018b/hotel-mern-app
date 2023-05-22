@@ -11,7 +11,7 @@ const HotelLoginUI = () => {
     const [password, setpassword] = useState("");
 
     const handleOnclick = async (ev) => {
-        const url = "http://localhost:3300/login/hotel";
+        const url = "https://hotel-mern-app.vercel.app/login/hotel";
         const data = { email, password };
         try{
             axios
